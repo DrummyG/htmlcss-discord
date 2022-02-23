@@ -52,6 +52,7 @@
 
 a{
     text-decoration: none;
+    display: inline-block;
 }
 
 a:hover{
@@ -72,6 +73,7 @@ nav{
 .logo{
     padding-top: 15px;
     width: 15%;
+    vertical-align: middle;
 }
 
 .barra ul{
@@ -91,7 +93,8 @@ nav{
 
 #top{
     width: 15%;
-    padding: 20px;
+    vertical-align: middle;
+    padding-top: 10px;
 }
 
 /* sezione jumbo */
@@ -216,6 +219,7 @@ footer{
 .footerone{
     height: 40vh;
     border-bottom: 2px solid #3161e0;
+    margin-bottom: 20px;
 }
 
 .color-diff p i{
@@ -250,6 +254,19 @@ li{
     color: white;
 }
 
+.bottom-list ul li .color-diff{
+    color: #3161e0;
+}
+
 .color-diff{
     color: #3161e0;
+}
+
+.footertwo{
+    width: 80%;
+    height: 200px
+}
+
+#last{
+    margin-top: 10px;
 }
