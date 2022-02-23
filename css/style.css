@@ -131,7 +131,7 @@ section{
     margin: 50px 60px;
 }
 
-.box p{
+.right p, .left p{
     max-width: 300px;
 }
 
@@ -161,4 +161,18 @@ section{
 .grey{
 background-color: #f6f6f6;
 min-height: 500px;
+}
+
+.align{
+    text-align: center;
+}
+
+.inside-work{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+#full{
+    min-width: 100%;
 }
