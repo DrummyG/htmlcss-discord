@@ -122,9 +122,13 @@ nav{
 
 /* sezione main */
 
+section{
+    min-height: 500px;
+}
+
 .big img{
     max-width: 600px;
-    margin-right: 40px;
+    margin: 50px 60px;
 }
 
 .box p{
@@ -133,9 +137,28 @@ nav{
 
 .big-text{
     font-size: 45px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 60px;
 }
 
 .small-text{
     font-size: large;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.wave{
+    color: #f6f6f6;
+}
+
+.opp{
+    transform: rotate(180deg);
+}
+
+.grey{
+background-color: #f6f6f6;
+min-height: 500px;
 }
