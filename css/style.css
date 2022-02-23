@@ -45,6 +45,11 @@
     color: white;
 }
 
+.blu{
+    background-color: #8ea1e1;
+    color: white;
+}
+
 a{
     text-decoration: none;
 }
@@ -161,6 +166,7 @@ section{
 .grey{
 background-color: #f6f6f6;
 min-height: 500px;
+padding-bottom: 40px;
 }
 
 .align{
@@ -175,4 +181,75 @@ min-height: 500px;
 
 #full{
     min-width: 100%;
+}
+
+.back{
+    height: 80px;
+    width: 400px;
+    margin: 40px auto;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mid-text{
+    text-align: center;
+    font-size: x-large;
+    line-height: 80px;
+}
+
+.container{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* inizio sezione footer */
+
+footer{
+    padding-top: 80px;
+    background-color: #23272A;
+    height: 80vh;
+}
+
+.footerone{
+    height: 40vh;
+    border-bottom: 2px solid #3161e0;
+}
+
+.color-diff p i{
+    color: white;
+}
+
+.font-diff{
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+#share i{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.bottom-list ul{
+    float: right;
+}
+
+.bottom-list ul li{
+    line-height: 20px;
+    margin: 5px;
+    margin-right: 50px;
+}
+
+.bottom-list ul li a{
+    color: white;
+}
+
+.color-diff{
+    color: #3161e0;
 }
