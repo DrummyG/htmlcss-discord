@@ -123,12 +123,19 @@ nav{
 /* sezione main */
 
 .big img{
-    width: 80%;
-    padding: 40px;
+    max-width: 600px;
+    margin-right: 40px;
 }
 
+.box p{
+    max-width: 300px;
+}
 
+.big-text{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
 
-section{
-    height: 60vh;
+.small-text{
+    font-size: large;
 }
