@@ -61,11 +61,11 @@ header{
 
 nav{
     height: 70px;
+    padding-top: 5px;
 }
 
 .logo{
-    vertical-align: center;
-    padding: 20px;
+    padding-top: 15px;
     width: 15%;
 }
 
@@ -122,7 +122,7 @@ nav{
 
 /* sezione main */
 
-.left img{
+.big img{
     width: 80%;
     padding: 40px;
 }
