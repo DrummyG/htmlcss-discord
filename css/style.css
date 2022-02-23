@@ -26,7 +26,7 @@
 }
 
 .box{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -93,6 +93,7 @@ nav{
 
 #jumbo{
     min-height: 568px;
+    margin-bottom: 70px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
@@ -119,4 +120,15 @@ nav{
     margin: 10px;
 }
 
+/* sezione main */
 
+.left img{
+    width: 80%;
+    padding: 40px;
+}
+
+
+
+section{
+    height: 60vh;
+}
