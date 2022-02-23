@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clearfix::after{
+	content: “”;
+	display: table;
+	clear: both;
+}
+
+.box{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.button{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* sezione nav */
+
+header{
+    background-color: #3161e0;
+}
+
+nav{
+    height: 70px;
+    color: white;
+}
+
+.logo{
+    vertical-align: center;
+    padding: 20px;
+    width: 15%;
+}
+
+.barra ul{
+    width: 70%;
+    text-align: center;
+}
+
+.barra ul li{
+    padding: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#top{
+    width: 15%;
+    padding: 20px;
+}
+
+/* sezione jumbo */
+
+
+
