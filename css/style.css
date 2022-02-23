@@ -18,6 +18,13 @@
 	clear: both;
 }
 
+.center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .box{
     width: 90%;
     margin: 0 auto;
@@ -31,6 +38,11 @@
 .white{
     background-color: white;
     color: black;
+}
+
+.black{
+    background-color: #23272a;
+    color: white;
 }
 
 a{
@@ -49,7 +61,6 @@ header{
 
 nav{
     height: 70px;
-    color: white;
 }
 
 .logo{
@@ -69,6 +80,10 @@ nav{
     display: inline-block;
 }
 
+.barra ul li a{
+    color: white;
+}
+
 #top{
     width: 15%;
     padding: 20px;
@@ -76,5 +91,32 @@ nav{
 
 /* sezione jumbo */
 
+#jumbo{
+    min-height: 568px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.jumbo-text{
+    text-align: center;
+    color: white;
+}
+
+.jumbo-text p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.jumbo-text h1{
+    font-size: 60px;
+    padding: 40px;
+}
+
+.jumbo-text a{
+    font-size: 20px;
+    margin: 10px;
+}
 
 
